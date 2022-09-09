@@ -68,7 +68,7 @@ jobs:
   # For guide on adding new starter workflow visit https://docs.github.com/en/github-ae@latest/actions/using-workflows/using-starter-workflows
 
   crda-scan:
-    uses: ./.github/workflows/crda.yml
+    uses: ./.github/workflows/crda.yml tu
     secrets:
       CRDA_KEY: ${{ secrets.CRDA_KEY }}
       # SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}       # Either use SNYK_TOKEN or CRDA_KEY
